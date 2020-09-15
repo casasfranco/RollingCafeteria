@@ -1,0 +1,22 @@
+{
+  "cafeteria": [
+    {
+      "id": 1,
+      "nombreProd": "Café con leche",
+      "precioProd": "100",
+      "categoria": "bebida-caliente"
+    },
+    {
+      "id": 2,
+      "nombreProd": "Tortilla x unidad",
+      "precioProd": "10",
+      "categoria": "salado"
+    },
+    {
+      "nombreProd": "Medialuna x unidad",
+      "precioProd": "25",
+      "categoria": "dulce",
+      "id": 3
+    }
+  ]
+}
