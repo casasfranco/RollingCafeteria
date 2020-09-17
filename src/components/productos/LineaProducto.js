@@ -25,7 +25,7 @@ const LineaProducto = (props) => {
         //Elimino el producto
         try {
           const resultado = await fetch(
-            `http://localhost:4000/api/cafeteria/${id}`,
+            `https://backendcafeteria.herokuapp.com/api/cafeteria/${id}`,
             {
               method: "DELETE",
               headers: {

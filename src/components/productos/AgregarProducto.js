@@ -53,7 +53,7 @@ const AgregarProducto = (props) => {
       };
 
       const resultado = await fetch(
-        "http://localhost:4000/api/cafeteria",
+        "https://backendcafeteria.herokuapp.com/api/cafeteria",
         cabecera
       );
       console.log(resultado);
